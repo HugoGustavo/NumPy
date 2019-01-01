@@ -1,0 +1,42 @@
+import numpy as np
+
+print('Binary equivalents of 13 and 17: ')
+(a,b) = (13,17)
+print(bin(a), bin(b))
+print('\n')
+print('Bitwise AND of 13 and 17: ')
+print(np.bitwise_and(13, 17))
+
+(a,b) = (13,17)
+print('Binary equivalents of 13 and 17: ')
+print(bin(a), bin(b))
+print('Bitwise OR of 13 and 17: ')
+print(np.bitwise_or(13, 17))
+
+print('Invert of 13 where dtype of ndarray is uint8: ')
+print(np.invert(np.array([13], dtype=np.uint8)))
+print('\n')
+print('Binary representation of 13: ')
+print(np.binary_repr(13, width=8))
+print('\n')
+print('Binary representation of 242: ')
+print(np.binary_repr(242, width=8))
+
+
+print('Left shift of 10 by two positions: ')
+print(np.left_shift(10, 2))
+print('\n')
+print('Binary representation of 10: ')
+print(np.binary_repr(10, width=8))
+print('\n')
+print('Binary representation of 40: ')
+print(np.binary_repr(40, width=8))
+
+print('Right shift 40 by two positions: ')
+print(np.right_shift(40,2))
+print('\n')
+print('Binary representation of 40: ')
+print(np.binary_repr(40, width=8))
+print('\n')
+print('Binary representation of 10: ')
+print(np.binary_repr(10, width=8))
